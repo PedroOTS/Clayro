@@ -1,0 +1,29 @@
+    /* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    /* A palavra-chave inherit no CSS força um elemento filho a herdar o valor exato da propriedade de seu elemento pai. Ela é útil para forçar a herança de propriedades que não são herdadas por padrão, como border, background-color ou width... */
+	font: inherit;
+    /* A propriedade vertical-align: baseline alinha a linha de base de um elemento com a linha de base do seu elemento pai. Ela é o valor padrão para elementos inline (span, strong) e inline-block (img), posicionando o conteúdo na mesma linha imaginária onde o texto se apoia */
+	vertical-align: baseline;
+}
+
+:root
+{
+    /* raiz para cores */
+    --corprimaria: #ee970b;
+    --corsecundaria: #8bcecf;
+    --corfundo: #000000;
+    --cortexto: #bebebe;
+
+    /* raiz para texto */
+    --fontetexto: "Pixelify Sans", sans-serif;   
+}
+
+@font-face
+{
+    font-family: 'Lower Pixel';
+    src: url('fontes/LowerPixel-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,9 @@
+body {
+    font-family: var(--fontetexto);
+    background: var(--corfundo);
+    color: var(--cortexto);
+}
+
+.nome {
+    color: var(--corprimaria);
+}
