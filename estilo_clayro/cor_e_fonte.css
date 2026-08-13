@@ -14,16 +14,20 @@
 {
     /* raiz para cores */
     --corprimaria: #ee970b;
-    --corsecundaria: #8bcecf;
-    --corfundo: #000000;
-    --cortexto: #bebebe;
+    --corsecundaria: #ffff03;
+    --corfundo1: #000000;
+    --corfundo2: #6b6b6b;
+
+    /* cores para separação de elementos */
+    --cortransito1: #ffe240;
+    --cortransito2: #ffce00;
+    --cortransito3: #ffa700;
+    --cortransito4: #ff8d00;
+    --cortransito5: #ff7400;
 
     /* raiz para texto */
-    --fontetexto: "Pixelify Sans", sans-serif;   
-}
-
-@font-face
-{
-    font-family: 'Lower Pixel';
-    src: url('fontes/LowerPixel-Regular.ttf') format('truetype');
+    --fontetexto: "Pixelify Sans", sans-serif;
+    
+    /* cores para textos */
+    --cortexto: #bebebe;
 }
