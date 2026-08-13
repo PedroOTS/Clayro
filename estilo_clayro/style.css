@@ -4,6 +4,104 @@ body {
     color: var(--cortexto);
 }
 
+section {
+    background: black;
+    padding: 10p;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* nome Clayro com transição de cores*/
 .nome {
-    color: var(--corprimaria);
+    font-size: 2rem;
+    background: linear-gradient(
+        to bottom,
+        var(--cortransito5),
+        var(--cortransito2),
+        var(--cortransito3),
+        var(--cortransito4),
+        var(--cortransito5)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 300%;
+    animation: gradientAnimation 3s linear infinite;
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position: 50% 0%;
+    }
+    100%{
+        background-position: 50% 300%;
+    }
+}
+/**/
+
+.cabecalho {
+    background: black;
+    text-align: center;
+}
+
+.item_cabecalho {
+    background: rgb(181, 9, 255);
+}
+
+nav {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+nav ul li:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.centro {
+
+    background: #47fa00;
+
+    width: 80%;
+    height: 400px;
+    
+    padding: 20px;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    box-sizing: border-box;
+}
+
+.centro {
+    background: #f1f1f1;
+
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_centro{
+    background: #04AA6D;
+}
+
+.rodape {
+    background: #ffffff;
 }
